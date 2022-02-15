@@ -64,7 +64,7 @@ const products = [
 ]
 function Home() {
   return (
-    <div >
+    <div>
 
       <div style={{ paddingTop: 20, position: 'relative' }} >
         <img
@@ -72,9 +72,9 @@ function Home() {
           src={require('../assets/uae.png')}
           alt=""
         />
-        <div style={{marginTop:-240,left:'25%',position:'absolute',justifyContent:'center',textAlign:'center'}}>
-        <h2 style={{ color: 'red', }}>UAE's 1st E-Commerce Platform </h2>
-        <h2 style={{ color: 'red', justifyCotet:'center',textAlign:'center' }}>for Business Set-Up </h2>
+        <div style={{ marginTop: -240, left: '25%', position: 'absolute', justifyContent: 'center', textAlign: 'center' }}>
+          <h2 style={{ color: 'red', }}>UAE's 1st E-Commerce Platform </h2>
+          <h2 style={{ color: 'red', justifyCotet: 'center', textAlign: 'center' }}>for Business Set-Up </h2>
         </div>
       </div>
       <div style={{ paddingTop: 20 }}>
@@ -85,7 +85,7 @@ function Home() {
         />
       </div>
 
-      <div className="container" style={{ textAlign: 'center' }}>
+      <div className="container" style={{ textAlign: 'center',overflowX:'scroll' }}>
         <div className="py-4">
           <h1 class="font-weight-light">Our Major Categories</h1>
           <div style={{ flexDirection: 'row', display: 'flex', padding: 10 }}>
